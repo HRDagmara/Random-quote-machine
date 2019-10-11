@@ -1,43 +1,17 @@
-body {
-  background-image: url("https://images.unsplash.com/photo-1536312819567-fc340bf0ac7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  width: 1200px;
-  height: 100%;
-  background-size: cover; }
+body { background-image: url("https://images.unsplash.com/photo-1536312819567-fc340bf0ac7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); width: 1200px; height: 100%; background-size: cover; }
 
-header h1 {
-  color: white;
-  font-size: 45px;
-  text-align: center;
-  margin-top: 210px;
-  margin-left: 140px;
-  word-spacing: 20px; }
+header h1 { color: white; font-size: 45px; text-align: center; margin-top: 210px; margin-left: 140px; word-spacing: 20px; }
 
-.box {
-  color: white;
-  text-align: center;
-  margin-top: 260px;
-  margin-left: 140px; }
+.box { color: white; text-align: center; margin-bottom: 20px; margin-left: 140px; width: 800px; }
 
-.trigger, .twitter {
-  border-radius: 8px;
-  width: 200px;
-  height: 45px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 570px;
-  background-color: white;
-  color: black;
-  opacity: 0.5; }
+.box .quote { font-size: 30px; text-align: center; }
 
-.twitter {
-  margin-top: 15px; }
-  .twitter .tweet {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: black; }
+.box .author { font-size: 30px; text-align: center; }
 
-.fa fa-lg fa-twitter {
-  font-size: 20px; }
+.trigger, .twitter { border-radius: 8px; width: 200px; height: 45px; font-size: 20px; font-weight: bold; margin-left: 570px; background-color: white; color: black; opacity: 0.5; }
 
-/*# sourceMappingURL=style.css.map */
+.twitter { margin-top: 15px; }
+
+.twitter .tweet { text-decoration: none; font-size: 20px; font-weight: bold; color: black; }
+
+.fab fa-twitter { font-size: 20px; }
